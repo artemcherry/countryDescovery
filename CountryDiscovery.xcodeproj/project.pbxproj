@@ -56,15 +56,71 @@
 		6BB49C4429CD9B65009B2A27 /* CountryDiscovery */ = {
 			isa = PBXGroup;
 			children = (
-				6BB49C4529CD9B65009B2A27 /* AppDelegate.swift */,
-				6BB49C4729CD9B65009B2A27 /* SceneDelegate.swift */,
-				6BB49C4929CD9B65009B2A27 /* ViewController.swift */,
-				6BB49C4B29CD9B65009B2A27 /* Main.storyboard */,
-				6BB49C4E29CD9B67009B2A27 /* Assets.xcassets */,
-				6BB49C5029CD9B67009B2A27 /* LaunchScreen.storyboard */,
-				6BB49C5329CD9B67009B2A27 /* Info.plist */,
+				6BB49C5E29CDA00A009B2A27 /* Service */,
+				6BB49C5929CD9FBF009B2A27 /* AppMain */,
+				6BB49C5B29CD9FE6009B2A27 /* Modules */,
+				6BB49C5A29CD9FD5009B2A27 /* StoryBoards */,
+				6BB49C5F29CDA014009B2A27 /* AppResources */,
 			);
 			path = CountryDiscovery;
+			sourceTree = "<group>";
+		};
+		6BB49C5929CD9FBF009B2A27 /* AppMain */ = {
+			isa = PBXGroup;
+			children = (
+				6BB49C4529CD9B65009B2A27 /* AppDelegate.swift */,
+				6BB49C4729CD9B65009B2A27 /* SceneDelegate.swift */,
+			);
+			path = AppMain;
+			sourceTree = "<group>";
+		};
+		6BB49C5A29CD9FD5009B2A27 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				6BB49C4B29CD9B65009B2A27 /* Main.storyboard */,
+				6BB49C5029CD9B67009B2A27 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		6BB49C5B29CD9FE6009B2A27 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				6BB49C5C29CD9FF1009B2A27 /* MainModule */,
+				6BB49C5D29CD9FFF009B2A27 /* DescriptionModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		6BB49C5C29CD9FF1009B2A27 /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				6BB49C4929CD9B65009B2A27 /* ViewController.swift */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		6BB49C5D29CD9FFF009B2A27 /* DescriptionModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DescriptionModule;
+			sourceTree = "<group>";
+		};
+		6BB49C5E29CDA00A009B2A27 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		6BB49C5F29CDA014009B2A27 /* AppResources */ = {
+			isa = PBXGroup;
+			children = (
+				6BB49C4E29CD9B67009B2A27 /* Assets.xcassets */,
+				6BB49C5329CD9B67009B2A27 /* Info.plist */,
+			);
+			path = AppResources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +344,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CountryDiscovery/Info.plist;
+				INFOPLIST_FILE = CountryDiscovery/AppResources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -315,7 +371,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CountryDiscovery/Info.plist;
+				INFOPLIST_FILE = CountryDiscovery/AppResources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
